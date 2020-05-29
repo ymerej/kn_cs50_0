@@ -1,0 +1,44 @@
+  body {
+    background-color: #ffb266
+  }
+
+  h1 {
+    color: black;
+    margin-left: 20px;
+  }
+  
+  p {
+    color: purple;
+  }
+
+  ul {
+    
+    justify-content: right;
+  }
+
+  td.fonty {
+    font-family: Georgia, serif;
+  }
+
+  p.fonty {
+    text-decoration: underline;
+  }
+ 
+  a:hover {
+    font-weight: bold;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    img {
+      opacity: 0.5;
+    }    
+  }
+ 
+  #half-size-image {  width: 540px;  height: auto; } 
+
+  .kn_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%
+  }
